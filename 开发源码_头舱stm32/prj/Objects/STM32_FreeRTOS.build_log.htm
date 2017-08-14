@@ -1,0 +1,228 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 黄 yongjian, lsmx, LIC=LJWAR-K7XPK-MQS0F-67SUT-52IW8-FHLFU
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.20
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DCM.DLL V1.13.7.0
+Target DLL:      Segger\JL2CM3.dll V2.99.20.0
+Dialog DLL:      TCM.DLL V1.14.9.0
+ 
+<h2>Project:</h2>
+C:\ten\share\knowledge\项目\单关节鱼\用户开发资料\开发源码_头舱stm32\prj\STM32_FreeRTOS_User.uvprojx
+Project File Date:  05/08/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling list.c...
+compiling heap_2.c...
+compiling port.c...
+compiling queue.c...
+compiling tasks.c...
+compiling misc.c...
+compiling SmartTuna.c...
+..\User\LMST_NodeCommon.h(100): warning:  #1295-D: Deprecated declaration YJ_IwdgInit - give arg types
+  void YJ_IwdgInit();
+..\User\LMST_HeadNode_LocalCtrl.h(4): warning:  #1295-D: Deprecated declaration YJ_InitLed - give arg types
+  void YJ_InitLed();
+..\User\LMST_HeadNode_LocalCtrl.h(6): warning:  #1-D: last line of file ends without a newline
+  void YJ_HeadNodeTask_LocalCtrl( void *parameters );
+..\User\SmartTuna.c(57): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+  	xTaskCreate( YJ_HeadNodeTask_LocalCtrl, ( signed portCHAR * ) "MainTask", 
+..\User\SmartTuna.c: 4 warnings, 0 errors
+compiling LMST_HeadNode_LocalCtrl.c...
+..\User\LMST_HeadNode_LocalCtrl.h(4): warning:  #1295-D: Deprecated declaration YJ_InitLed - give arg types
+  void YJ_InitLed();
+..\User\LMST_HeadNode_LocalCtrl.h(6): warning:  #1-D: last line of file ends without a newline
+  void YJ_HeadNodeTask_LocalCtrl( void *parameters );
+..\User\LMST_NodeCommon.h(100): warning:  #1295-D: Deprecated declaration YJ_IwdgInit - give arg types
+  void YJ_IwdgInit();
+..\User\LMST_HeadNode_LocalCtrl.c(46): warning:  #223-D: function "strlen" declared implicitly
+  	ret = YJ_PackedApl(buf, 3, tmp, strlen(tmp));
+..\User\LMST_HeadNode_LocalCtrl.c(72): warning:  #223-D: function "strlen" declared implicitly
+  	ret = YJ_PackedApl(buf, 3, tmp, strlen(tmp));
+..\User\LMST_HeadNode_LocalCtrl.c(106): warning:  #223-D: function "strlen" declared implicitly
+  	ret = YJ_PackedApl(buf, 3, tmp, strlen(tmp));
+..\User\LMST_HeadNode_LocalCtrl.c(130): warning:  #223-D: function "strcmp" declared implicitly
+  					if( s == 
+ULL || s->type != 
+JSON_String || (strcmp(s->valuestring, "HeartBeat") != 0))
+..\User\LMST_HeadNode_LocalCtrl.c(102): warning:  #550-D: variable "SrcAddr" was set but never used
+  	int32_t ret, SrcAddr, i;
+..\User\LMST_HeadNode_LocalCtrl.c(212): warning:  #223-D: function "strcmp" declared implicitly
+  				if(strcmp(s->valuestring, "OpenLight") == 0)
+..\User\LMST_HeadNode_LocalCtrl.c(248): warning:  #550-D: variable "ret" was set but never used
+  	int32_t 					ret = 1; 
+..\User\LMST_HeadNode_LocalCtrl.c(280): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+  		xTaskCreate( YJ_HeadNodeTask__, ( signed portCHAR * ) "YJ_HeadNodeTask", 
+..\User\LMST_HeadNode_LocalCtrl.c(313): warning:  #1-D: last line of file ends without a newline
+  }
+..\User\LMST_HeadNode_LocalCtrl.c(270): warning:  #177-D: variable "ret" was declared but never referenced
+  		int32_t 		ret = 1; 
+..\User\LMST_HeadNode_LocalCtrl.c(271): warning:  #177-D: variable "SrcAddr" was declared but never referenced
+  	  int32_t   	SrcAddr;
+..\User\LMST_HeadNode_LocalCtrl.c(275): warning:  #177-D: variable "xDelay" was declared but never referenced
+  	  const portTickType xDelay = pdMS_TO_TICKS(3);  //瀹?pdMS_TO_TICKS鐢?浜?灏?姣?绉?杞?鎴?鑺?鎷?鏁?
+..\User\LMST_HeadNode_LocalCtrl.c: 15 warnings, 0 errors
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_wwdg.c...
+compiling stm32f10x_usart.c...
+compiling LM_queue_m3_FreeRtos.c...
+compiling LM_Cudp_m3.c...
+..\User\LM_Cudp_m3.c(644): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+  	xTaskCreate( CudpTask, ( signed portCHAR * ) "CudpTask", 
+..\User\LM_Cudp_m3.c: 1 warning, 0 errors
+compiling LM_Uudp.c...
+..\User\LM_Uudp.c(129): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  	HiEnQueue_nolock((h->RecvTmp + 4), h->RecvPackLen, h->RecvQue);
+..\User\LM_Uudp.c(196): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  			   !Checksum(h->RecvTmp, h->ItDataLen)) 
+..\User\LM_Uudp.c(265): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  	h->RecvQue 	= HiCreateQueue(h->RecvBuf_que , sizeof(h->RecvBuf_que));
+..\User\LM_Uudp.c(386): warning:  #1-D: last line of file ends without a newline
+  			       
+..\User\LM_Uudp.c: 4 warnings, 0 errors
+compiling LM_Common.c...
+compiling OnChip.c...
+..\User\OnChip.h(31): warning:  #1295-D: Deprecated declaration YJ_GetRunMode - give arg types
+  int32_t YJ_GetRunMode();
+..\User\OnChip.h(35): warning:  #1295-D: Deprecated declaration YJ_GetNodeType - give arg types
+  int32_t YJ_GetNodeType();
+..\User\OnChip.h(37): warning:  #1295-D: Deprecated declaration testFlash - give arg types
+  void testFlash();
+..\User\OnChip.c(166): warning:  #167-D: argument of type "int32_t *" is incompatible with parameter of type "u32 *"
+  		FlashWriteWords(
+J_NODE_TYPE_FLASH_ADDR,(int32_t *)&type, 1);
+..\User\OnChip.c(181): warning:  #167-D: argument of type "int32_t *" is incompatible with parameter of type "u32 *"
+  		FlashWriteWords(
+J_RUN_MODE_FLAGS_FLASH_ADDR,(int32_t *)&mode, 1);
+..\User\OnChip.c(191): warning:  #1-D: last line of file ends without a newline
+  		
+..\User\OnChip.c: 6 warnings, 0 errors
+compiling LM_SystemClock.c...
+..\User\LM_SystemClock.c(57): warning:  #223-D: function "memset" declared implicitly
+  	memset(h, 0, sizeof(struct YJ_SysClockCore));
+..\User\LM_SystemClock.c(59): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+  	xTaskCreate( SysClockTask, ( signed portCHAR * ) "SysClockTask", 
+..\User\LM_SystemClock.c: 2 warnings, 0 errors
+compiling cJSON.c...
+..\User\cJSON.c(81): warning:  #223-D: function "strlen" declared implicitly
+      len = strlen(str) + 1;
+..\User\cJSON.c(83): warning:  #1293-D: assignment in condition
+      if (!(copy = (char *)
+JSON_malloc(len))) {
+..\User\cJSON.c(87): warning:  #223-D: function "memcpy" declared implicitly
+      memcpy(copy, str, len);
+..\User\cJSON.c(98): warning:  #223-D: function "memset" declared implicitly
+          memset(node, 0, sizeof(cJSON));
+..\User\cJSON.c(134): warning:  #550-D: variable "sign" was set but never used
+      double n = 0, sign = 1, scale = 0;
+..\User\cJSON.c(135): warning:  #550-D: variable "signsubscale" was set but never used
+      int subscale = 0, signsubscale = 1;
+..\User\cJSON.c(413): warning:  #1293-D: assignment in condition
+      while ((token = *ptr) && ++len) {
+..\User\cJSON.c(414): warning:  #223-D: function "strchr" declared implicitly
+          if (
+JSON_strchr("\"\\\b\f\n\r\t", token)) {
+..\User\cJSON.c(569): warning:  #223-D: function "strncmp" declared implicitly
+      if (!strncmp(value, "null", 4))    {
+..\User\cJSON.c(681): warning:  #1293-D: assignment in condition
+          if (!(new_item = cJSON_New_Item())) {
+..\User\cJSON.c(723): warning:  #223-D: function "strcpy" declared implicitly
+              strcpy(out, "[]");
+..\User\cJSON.c(736): warning:  #223-D: function "memset" declared implicitly
+      memset(entries, 0, numentries * sizeof(char *));
+..\User\cJSON.c(745): warning:  #223-D: function "strlen" declared implicitly
+              len += strlen(ret) + 2 + (fmt ? 1 : 0);
+..\User\cJSON.c(779): warning:  #223-D: function "strcpy" declared implicitly
+          strcpy(ptr, entries[i]);
+..\User\cJSON.c(780): warning:  #223-D: function "strlen" declared implicitly
+          ptr += strlen(entries[i]);
+..\User\cJSON.c(846): warning:  #1293-D: assignment in condition
+          if (!(new_item = cJSON_New_Item())) {
+..\User\cJSON.c(935): warning:  #223-D: function "memset" declared implicitly
+      memset(entries, 0, sizeof(char *)*numentries);
+..\User\cJSON.c(951): warning:  #223-D: function "strlen" declared implicitly
+              len += strlen(ret) + strlen(str) + 2 + (fmt ? 2 + depth : 0);
+..\User\cJSON.c(998): warning:  #223-D: function "strcpy" declared implicitly
+          strcpy(ptr, names[i]);
+..\User\cJSON.c(999): warning:  #223-D: function "strlen" declared implicitly
+          ptr += strlen(names[i]);
+..\User\cJSON.c(1081): warning:  #223-D: function "memcpy" declared implicitly
+      memcpy(ref, item, sizeof(cJSON));
+..\User\cJSON.c: 21 warnings, 0 errors
+assembling cortexm3_macro_rvds.s...
+assembling STM32F10x.s...
+compiling LMST_NodeCommon.c...
+..\User\LMST_NodeCommon.h(100): warning:  #1295-D: Deprecated declaration YJ_IwdgInit - give arg types
+  void YJ_IwdgInit();
+..\User\OnChip.h(31): warning:  #1295-D: Deprecated declaration YJ_GetRunMode - give arg types
+  int32_t YJ_GetRunMode();
+..\User\OnChip.h(35): warning:  #1295-D: Deprecated declaration YJ_GetNodeType - give arg types
+  int32_t YJ_GetNodeType();
+..\User\OnChip.h(37): warning:  #1295-D: Deprecated declaration testFlash - give arg types
+  void testFlash();
+..\User\LMST_NodeCommon.c(82): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+  	xTaskCreate( IwdgTask, ( signed portCHAR * ) "IwdgTask", 
+..\User\LMST_NodeCommon.c(103): warning:  #223-D: function "YJ_InitLed" declared implicitly
+  	YJ_InitLed();
+..\User\LMST_NodeCommon.c(171): warning:  #223-D: function "memcpy" declared implicitly
+  		memcpy(buf + i, data, datalen);
+..\User\LMST_NodeCommon.c(204): warning:  #223-D: function "memcpy" declared implicitly
+  		memcpy(buf, tmp + 8, ret - 8);
+..\User\LMST_NodeCommon.c(223): warning:  #223-D: function "strlen" declared implicitly
+  		int32_t 	datalen     = strlen(msg) + 1;
+..\User\LMST_NodeCommon.c(252): warning:  #223-D: function "strlen" declared implicitly
+  		int32_t 	datalen     = strlen(msg) + 1;
+..\User\LMST_NodeCommon.c(283): warning:  #223-D: function "strlen" declared implicitly
+  		int32_t 	datalen     = strlen(msg) + 1;
+..\User\LMST_NodeCommon.c: 11 warnings, 0 errors
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=23916 RO-data=836 RW-data=132 ZI-data=16380  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil_v5\ARM\ARMCC\bin\fromelf.exe --bin -o  ./Objects/STM32_FreeRTOS.bin  ./Objects/STM32_FreeRTOS.axf
+".\Objects\STM32_FreeRTOS.axf" - 0 Error(s), 64 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\ten\share\knowledge\项目\单关节鱼\用户开发资料\开发源码_头舱stm32\prj\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:17
+</pre>
+</body>
+</html>

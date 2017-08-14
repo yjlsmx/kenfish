@@ -1,0 +1,15 @@
+.\objects\lm_imu.o: ..\User\LM_Imu.c
+.\objects\lm_imu.o: ..\STM32F10xFWLib_v3.5.0\inc\stm32f10x_flash.h
+.\objects\lm_imu.o: ..\CM3\stm32f10x.h
+.\objects\lm_imu.o: ..\CM3\core_cm3.h
+.\objects\lm_imu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lm_imu.o: ..\CM3\system_stm32f10x.h
+.\objects\lm_imu.o: ..\STM32F10xFWLib_v3.5.0\inc\stm32f10x_conf.h
+.\objects\lm_imu.o: ..\STM32F10xFWLib_v3.5.0\inc\stm32f10x_gpio.h
+.\objects\lm_imu.o: ..\CM3\stm32f10x.h
+.\objects\lm_imu.o: ..\STM32F10xFWLib_v3.5.0\inc\stm32f10x_rcc.h
+.\objects\lm_imu.o: ..\STM32F10xFWLib_v3.5.0\inc\stm32f10x_wwdg.h
+.\objects\lm_imu.o: ..\STM32F10xFWLib_v3.5.0\inc\stm32f10x_tim.h
+.\objects\lm_imu.o: ..\STM32F10xFWLib_v3.5.0\inc\misc.h
+.\objects\lm_imu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\lm_imu.o: ..\User\LM_Imu.h
