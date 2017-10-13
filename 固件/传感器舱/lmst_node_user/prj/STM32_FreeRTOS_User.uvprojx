@@ -532,6 +532,11 @@
               <FileType>1</FileType>
               <FilePath>..\User\LM_IIC.c</FilePath>
             </File>
+            <File>
+              <FileName>LM_Sht2x.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\LM_Sht2x.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

@@ -29,6 +29,7 @@
 ".\objects\lm_dcm.o"
 ".\objects\lm_bmp180.o"
 ".\objects\lm_iic.o"
+".\objects\lm_sht2x.o"
 ".\objects\misc.o"
 ".\objects\stm32f10x_adc.o"
 ".\objects\stm32f10x_bkp.o"

@@ -37,3 +37,4 @@
 .\objects\lmst_headnode.o: ..\User\LM_BuoyantDevices.h
 .\objects\lmst_headnode.o: ..\User\LMST_HeadNode.h
 .\objects\lmst_headnode.o: ..\User\LMST_NodeCommon.h
+.\objects\lmst_headnode.o: ..\User\LM_Sht2x.h

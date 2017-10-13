@@ -42,3 +42,4 @@
 .\objects\lmst_nodecommon.o: ..\User\OnChip.h
 .\objects\lmst_nodecommon.o: ..\User\LM_IIC.h
 .\objects\lmst_nodecommon.o: ..\User\LM_Bmp180.h
+.\objects\lmst_nodecommon.o: ..\User\LM_Sht2x.h

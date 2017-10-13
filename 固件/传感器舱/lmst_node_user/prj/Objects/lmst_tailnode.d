@@ -39,3 +39,4 @@
 .\objects\lmst_tailnode.o: ..\User\LMST_NodeCommon.h
 .\objects\lmst_tailnode.o: ..\User\LM_BatteryManager.h
 .\objects\lmst_tailnode.o: ..\User\LM_Common.h
+.\objects\lmst_tailnode.o: ..\User\LM_Sht2x.h
